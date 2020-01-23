@@ -19,7 +19,7 @@ app.set('view engine', 'handlebars');
 // Import routes
 require('./routes/api-routes')(app);
 require('./routes/html-routes')(app);
-db.sequelize.sync({ force: true }).then(function () {
+db.sequelize.sync({ force: false }).then(function () {
     // Start server and begin listening for requests
     app.listen(PORT, (err) => {
         if (err) throw err;
