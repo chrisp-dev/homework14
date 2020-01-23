@@ -1,7 +1,7 @@
 {
-  "name": "homework13",
+  "name": "homework14",
   "version": "1.0.0",
-  "description": "MVC Node Express Handlebars Mysql",
+  "description": "MVC Node Express Handlebars Sequelize Mysql",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,18 +10,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisp-dev/homework13.git"
+    "url": "git+https://github.com/chrisp-dev/homework14.git"
   },
-  "keywords": [],
+  "keywords": [
+    "MVC",
+    "NodeJS",
+    "Express",
+    "Handlebars",
+    "Sequelize",
+    "Mysql"
+  ],
   "author": "Chris Paradeise",
   "license": "GNU",
   "bugs": {
-    "url": "https://github.com/chrisp-dev/homework13/issues"
+    "url": "https://github.com/chrisp-dev/homework14/issues"
   },
-  "homepage": "https://github.com/chrisp-dev/homework13#readme",
+  "homepage": "https://github.com/chrisp-dev/homework14#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
   }
 }
